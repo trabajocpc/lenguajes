@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="bg-dark">
+
+    <header>
+
+    </header>
+    <main>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-8">
+
+                    <h1 class="text-white text-center">DIVIERTETE... Y APRENDE</h1>
+                    <form class="p-5">
+
+                        <div class="row">
+
+                            <div class="col">
+                                <input type="number" class="form-control caja text-center" id="numero1" value="1" readonly>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control caja text-center" id="operacion" value="+" readonly>
+                            </div>
+                            <div class="col">
+                                <input type="number" class="form-control caja text-center" id="numero2" value="1" readonly>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control caja text-center" id="igual" value="=" readonly>
+                            </div>
+                            <div class="col">
+                                <input type="number" class="form-control caja" id="resultado">
+                            </div>
+                            <button type="button" class="btn btn-primary mt-5 caja" id="calcular">Calcular</button>
+                            <button type="button" class="btn btn-primary mt-5 caja" id="siguiente">Siguiente</button>
+                            <button type="button" class="btn btn-primary mt-5 caja" id="puntuacion">Puntuacion</button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+                <div class="col-4 text-center">
+                    <iframe src="https://giphy.com/embed/9xt1MUZqkneFiWrAAD" width="480" height="480" frameBorder="0" class="giphy-embed invisible p-4 mt-5" id="gifpun" allowFullScreen></iframe>
+                    <h2 id="buenas" class="text-white text-center"></h2>
+                    <h2 id="malas"  class="text-white text-center"></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8 text-center">
+                    <iframe id="giff" src="https://giphy.com/embed/3o7abKhOpu0NwenH3O" width="480" height="270" frameBorder="0" class="giphy-embed invisible" allowFullScreen></iframe>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+
+    <script src="controlador.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
